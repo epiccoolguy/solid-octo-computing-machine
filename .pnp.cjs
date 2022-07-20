@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:5fa0093aed55e13871670df83b9f1cf6cad0c17eb89e848204b8a4a39d3dad711c8cdd8730560912c1e6f663c83d14494c67c628fafba2977f189a3223816fbd#npm:5.30.7"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.12"],\
             ["eslint", "npm:8.20.0"],\
+            ["prettier", "npm:2.7.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -1772,6 +1773,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.7.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.7.1-d1f40f5e1a-55a4409182.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["pump", [\
         ["npm:3.0.0", {\
           "packageLocation": "./.yarn/cache/pump-npm-3.0.0-0080bf6a7a-e42e9229fb.zip/node_modules/pump/",\
@@ -1932,6 +1942,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:5fa0093aed55e13871670df83b9f1cf6cad0c17eb89e848204b8a4a39d3dad711c8cdd8730560912c1e6f663c83d14494c67c628fafba2977f189a3223816fbd#npm:5.30.7"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.12"],\
             ["eslint", "npm:8.20.0"],\
+            ["prettier", "npm:2.7.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\

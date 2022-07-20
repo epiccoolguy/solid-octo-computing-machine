@@ -1427,6 +1427,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
+  languageName: node
+  linkType: hard
+
 "pump@npm:^3.0.0":
   version: 3.0.0
   resolution: "pump@npm:3.0.0"
@@ -1564,6 +1573,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.30.7
     "@yarnpkg/sdks": ^3.0.0-rc.12
     eslint: ^8.20.0
+    prettier: 2.7.1
     typescript: ^4.7.4
   languageName: unknown
   linkType: soft
