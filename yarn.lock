@@ -351,7 +351,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/sdks@npm:^3.0.0-rc.12":
+"@yarnpkg/sdks@npm:3.0.0-rc.12":
   version: 3.0.0-rc.12
   resolution: "@yarnpkg/sdks@npm:3.0.0-rc.12"
   dependencies:
@@ -1582,7 +1582,7 @@ __metadata:
   dependencies:
     "@typescript-eslint/eslint-plugin": ^5.30.7
     "@typescript-eslint/parser": ^5.30.7
-    "@yarnpkg/sdks": ^3.0.0-rc.12
+    "@yarnpkg/sdks": 3.0.0-rc.12
     eslint: ^8.20.0
     eslint-config-prettier: ^8.5.0
     prettier: 2.7.1
