@@ -19,11 +19,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "solid-octo-computing-machine",\
         "reference": "workspace:."\
+      },\
+      {\
+        "name": "api",\
+        "reference": "workspace:services/api"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
+      ["api", ["workspace:services/api"]],\
       ["solid-octo-computing-machine", ["workspace:."]]\
     ],\
     "fallbackPool": [\
@@ -608,6 +613,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["color-convert", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["api", [\
+        ["workspace:services/api", {\
+          "packageLocation": "./services/api/",\
+          "packageDependencies": [\
+            ["api", "workspace:services/api"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["argparse", [\
