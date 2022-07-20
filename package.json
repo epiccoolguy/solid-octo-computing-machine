@@ -1,4 +1,7 @@
 {
   "name": "solid-octo-computing-machine",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@yarnpkg/sdks": "^3.0.0-rc.12"
+  }
 }
