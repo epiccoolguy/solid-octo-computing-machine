@@ -5652,6 +5652,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.11.45"],\
             ["@types/react", "npm:18.0.15"],\
             ["@types/react-dom", "npm:18.0.6"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["eslint-config-react-app", "virtual:f43a34847a0e43a9f4b2061bb4b88075a3405abfcb7ab74a26e0bcbb848e39b9496fbd58f4bb52bd0d49c1ff476fa7f63018a33ade3f8fa238e9b8c110eec95a#npm:7.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f43a34847a0e43a9f4b2061bb4b88075a3405abfcb7ab74a26e0bcbb848e39b9496fbd58f4bb52bd0d49c1ff476fa7f63018a33ade3f8fa238e9b8c110eec95a#npm:18.2.0"],\
