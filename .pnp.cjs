@@ -5642,7 +5642,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./services/api/",\
           "packageDependencies": [\
             ["api", "workspace:services/api"],\
+            ["@types/express", "npm:4.17.13"],\
             ["@types/node", "npm:18.6.1"],\
+            ["express", "npm:4.18.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
