@@ -1,6 +1,8 @@
 {
   "name": "api",
   "packageManager": "yarn@3.2.1",
+  "type": "module",
+  "exports": "./build/index.js",
   "dependencies": {
     "typescript": "^4.7.4"
   },
@@ -8,6 +10,7 @@
     "@types/node": "^18.4.0"
   },
   "scripts": {
-    "build": "yarn g:build"
+    "build": "yarn g:build --platform=node",
+    "start": "yarn build && node ./build/index.js"
   }
 }
