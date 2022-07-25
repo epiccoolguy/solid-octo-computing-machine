@@ -4457,6 +4457,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.11.45"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:18.6.1", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.6.1-9231d14b7c-06331f68bc.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.6.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@types/parse-json", [\
@@ -5635,6 +5642,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./services/api/",\
           "packageDependencies": [\
             ["api", "workspace:services/api"],\
+            ["@types/node", "npm:18.6.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
