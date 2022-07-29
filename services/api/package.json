@@ -12,7 +12,7 @@
     "@types/node": "^18.4.0"
   },
   "scripts": {
-    "build": "yarn g:build --platform=node",
+    "build": "yarn g:build:node",
     "start": "yarn build && node ./build/index.js"
   }
 }
