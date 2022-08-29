@@ -2440,6 +2440,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/node16@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@tsconfig/node16@npm:1.0.3"
+  checksum: 3a8b657dd047495b7ad23437d6afd20297ce90380ff0bdee93fc7d39a900dbd8d9e26e53ff6b465e7967ce2adf0b218782590ce9013285121e6a5928fbd6819f
+  languageName: node
+  linkType: hard
+
 "@types/aria-query@npm:^4.2.0":
   version: 4.2.2
   resolution: "@types/aria-query@npm:4.2.2"
@@ -3423,6 +3430,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:services/api"
   dependencies:
+    "@tsconfig/node16": ^1.0.3
     "@types/express": ^4
     "@types/node": ^18.4.0
     express: ^4.18.1
