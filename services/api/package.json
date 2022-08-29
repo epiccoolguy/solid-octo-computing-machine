@@ -12,7 +12,7 @@
     "@types/node": "^18.4.0"
   },
   "scripts": {
-    "build": "yarn g:build:node",
+    "build": "yarn g:build:node index.ts",
     "start": "yarn build && node --enable-source-maps ./build/index.js"
   }
 }

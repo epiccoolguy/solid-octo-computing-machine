@@ -13,8 +13,8 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "g:build": "cd $INIT_CWD && node $PROJECT_CWD/esbuild.js",
-    "g:build:node": "cd $INIT_CWD && node $PROJECT_CWD/esbuild.node.js"
+    "g:build:base": "cd $INIT_CWD && rm -rf build && esbuild --log-level=warning --format=esm --bundle --minify --sourcemap --outdir=./build/",
+    "g:build:node": "cd $INIT_CWD && yarn g:build:base --platform=node"
   },
   "workspaces": [
     "apps/*",
