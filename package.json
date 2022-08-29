@@ -6,7 +6,7 @@
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.14",
-    "esbuild": "^0.14.49",
+    "esbuild": "^0.15.5",
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "2.7.1",
