@@ -16,6 +16,7 @@
   },
   "scripts": {
     "g:prebuild": "cd $INIT_CWD && del build",
+    "g:postbuild": "cd $INIT_CWD && cpy --cwd=src --no-overwrite . '../build/'",
     "g:build:base": "cd $INIT_CWD && yarn g:prebuild && esbuild --log-level=warning --format=esm --bundle --minify --sourcemap --outdir=./build/",
     "g:build:node": "cd $INIT_CWD && yarn g:build:base --platform=node"
   },

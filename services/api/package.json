@@ -13,7 +13,7 @@
     "@types/node": "^18.4.0"
   },
   "scripts": {
-    "build": "yarn g:build:node ./src/main.ts",
+    "build": "yarn g:build:node ./src/main.ts && yarn g:postbuild",
     "start": "yarn build && node --enable-source-maps ./build/main.js"
   }
 }
