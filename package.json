@@ -14,7 +14,8 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "g:build:base": "cd $INIT_CWD && rm -rf build && esbuild --log-level=warning --format=esm --bundle --minify --sourcemap --outdir=./build/",
+    "g:prebuild": "cd $INIT_CWD && del build",
+    "g:build:base": "cd $INIT_CWD && yarn g:prebuild && esbuild --log-level=warning --format=esm --bundle --minify --sourcemap --outdir=./build/",
     "g:build:node": "cd $INIT_CWD && yarn g:build:base --platform=node"
   },
   "workspaces": [
